@@ -1,0 +1,27 @@
+{
+  "status": "OK",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "service": "data-parser",
+  "version": "1.2.3",
+  "environment": "production",
+  "uptime_seconds": 3600,
+  "memory_usage_mb": 128.5,
+  "cpu_load_percent": 10.2,
+  "active_threads": 15,
+  "last_data_processed": "2024-10-27T09:59:55Z",
+  "queue_size": 0,
+  "dependencies": {
+    "database": {
+      "status": "OK",
+      "latency_ms": 5
+    },
+    "message_queue": {
+      "status": "OK",
+      "queue_depth": 10
+    }
+  },
+  "custom_metrics": {
+    "processed_records_per_minute": 1200,
+    "error_rate_percent": 0.01
+  }
+}
